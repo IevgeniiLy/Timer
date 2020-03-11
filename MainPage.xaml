@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Timer.MainPage">
+
+    <StackLayout>
+        
+        <Label Text="Timer" HorizontalOptions="Center"/>
+        <Editor x:Name="textBox1" BackgroundColor="White" />
+        <ProgressBar x:Name="progressBar1" ProgressColor="Orange" Progress="0.1"/>
+        <Button x:Name="button1" Clicked="button1_click" Text="Start" />
+        <Button x:Name="button2" Clicked="button2_click" Text="Pause" />
+        
+    </StackLayout>
+
+</ContentPage>
